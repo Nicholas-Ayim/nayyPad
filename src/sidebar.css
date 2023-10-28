@@ -1,0 +1,40 @@
+.note-sidebar-body{
+    width:30%;
+    height: 100%;
+}
+.sidebar-main-function{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3rem;
+}
+.sidebar-notes{
+    overflow-y: scroll;
+    cursor:pointer;
+}
+.note-delete:hover{
+    cursor:pointer;
+    background: red;
+}
+.sidebar-added-note:hover{
+    transform: scale(0.95);
+    /* background: #DEDEDE; */
+    border-radius: 20px;
+    padding: 1rem;
+    transition: all 0.3s ease;
+}
+.sidebar-added-note{
+    padding: 0.3rem;
+}
+.active{
+    background: #ddd;
+    border-radius: 20px;
+}
+.sidebar-note-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.note-index-line{
+    color: red;
+}

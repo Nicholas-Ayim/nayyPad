@@ -1,0 +1,36 @@
+.format-doc{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap:3rem;
+    padding-left: 1rem;
+}
+.main-title{
+    width:100%;
+    height:50vh;
+    
+}
+.title-textField{
+    width: 100%;
+    height: 40px;
+}
+.main-document{
+    width: 100%;
+    padding-top: 0.5rem;
+}
+textarea{
+    resize: none;
+    width: 100%;
+    height: calc(50vh - 20px);
+    accent-color: red;
+    text-indent: 0.5rem;
+}
+
+.preview{
+    width: 100%;
+    height: 50vh;
+    border: 1px solid blue;
+}
+.no-active{
+    display: block;
+}
